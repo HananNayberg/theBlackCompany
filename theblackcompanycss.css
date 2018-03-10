@@ -1,0 +1,108 @@
+html
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* home page background image */
+.home-bg
+{
+    background: url("bgimages/bcwheel.jpeg") no-repeat center fixed;
+    background-color: black;
+    background-size: 1100px 800px;
+}
+/* books page background image */
+.books-bg
+{
+    background: url("bgimages/booksbgpic.jpg") no-repeat center fixed;
+    background-color: black;
+    background-size: 1024px 800px;
+}
+.thecompany-bg
+{
+    background: url("bgimages/sword.jpg") no-repeat center fixed;
+    background-color: black;
+    background-size: 1200px 800px;
+}
+.maps-bg
+{
+    background: url("bgimages/adventure.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    background-color:rgba(0, 0, 0, 0.4); /* last value determine transperancy */
+    text-align: center;
+    font-family: "Goudy Old Style";
+    font-size: 20px;
+    color: white;
+}
+header h1
+{
+    margin-bottom: -5px;
+    font-size: 50px;
+
+}
+header ul {list-style: none;}
+header li
+{
+    font-family: "Goudy Old Style";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin:0;
+    fill-opacity: inherit;
+    padding: 10px;
+}
+header a
+{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Goudy Old Style";
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 356px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: "Goudy Old Style";
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+div.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    color: white;
+}
+div.left
+{
+    text-align: justify;
+    font-family: "Goudy Old Style";
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 20%;
+}
+div.right
+{
+    margin-left: 0;
+
+}
+
